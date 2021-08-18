@@ -1,3 +1,4 @@
 ## vue-video
 Video app created with vue using youtube's api.
-(/vue-video.jpg)
+
+![screenshot of project](/video-browser/vue-video.jpg)
