@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="search__bar">
         <!-- <input v-on:input="onInput"/> -->
         <input @input="onInput"/>
     </section>
@@ -16,6 +16,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+    input {
+        width: 100%;
+        padding: .5rem;
+    }
 
+    .search__bar {
+        text-align: center;
+        margin: 20px 0 30px;
+    }
 </style>
